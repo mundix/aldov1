@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'git/cool'
+
+  get 'git/sweet'
+
   # get 'users/new'
   #
   # get 'users/create'
