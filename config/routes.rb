@@ -5,9 +5,9 @@ Rails.application.routes.draw do
   #
   # get 'sessions/destroy'
 
-  # get 'git/cool'
+  # get 'gif/cool'
 
-  # get 'git/sweet'
+  # get 'gif/sweet'
 
   # get 'users/new'
   #
