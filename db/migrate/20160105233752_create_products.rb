@@ -15,6 +15,5 @@ class CreateProducts < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_column :products, :price, :decimal
   end
 end
