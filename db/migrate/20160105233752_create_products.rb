@@ -3,6 +3,7 @@ class CreateProducts < ActiveRecord::Migration
     create_table :products do |t|
       t.string :name
       t.text :description
+      t.integer :user_id
       t.float :lon
       t.float :lat
       t.float :price
@@ -14,5 +15,6 @@ class CreateProducts < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+    add_column :products, :price, :decimal
   end
 end
