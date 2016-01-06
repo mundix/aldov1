@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :cars
   get 'products/new'
 
   get 'products/create'
